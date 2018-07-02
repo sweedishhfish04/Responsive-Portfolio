@@ -76,6 +76,9 @@ h3 {
   text-decoration: none;
   background: #4aaaa5;
 }
+.games {
+  height: 150px;
+}
 
 nav {
   float: right;
