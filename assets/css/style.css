@@ -76,8 +76,14 @@ h3 {
   text-decoration: none;
   background: #4aaaa5;
 }
+.gameTags {
+  color: red;
+}
 .games {
   height: 150px;
+}
+.github {
+  text-decoration: underline blue; 
 }
 
 nav {
