@@ -81,6 +81,14 @@ h3 {
   margin-left: 5px;
 }
 
+#info {
+  text-align: center;
+}
+
+#last {
+  margin-left: 250px;
+}
+
 .gameTags {
   color: orange;
   font-weight: bolder;
