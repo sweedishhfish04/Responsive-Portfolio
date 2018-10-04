@@ -14,7 +14,6 @@ body {
 
 .container {
   width: 50%;
-  max-width: 960px;
   margin: 0 auto;
   clear: both;
 }
@@ -246,21 +245,45 @@ input[type=submit] {
 a {
   color: navy;
 }
+@media screen and (max-width: 1525px) {
+  body {
+    background-color: blue;
+  }
+  #godzilla {
+    display: inline-block;
+    width: 8%;
+}
+}
 
 @media screen and (max-width: 980px) {
   body {
     background-color: blue;
   }
+  #godzilla {
+    display: none!important; 
+}
+#last {
+  margin-left: 50px;
+}
 }
 
 @media screen and (max-width: 768px) {
   body {
     background-color: red;
   }
+  #godzilla {
+    display: none!important; 
+}
+#last {
+  margin-left: 10px;
+}
 }
 
 @media screen and (max-width: 640px) {
   body {
     background-color: green;
-  }
+  } 
+#last {
+  margin-left: 0px;
+}
 }
