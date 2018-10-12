@@ -202,44 +202,13 @@ h2 {
 
 /* contact page */
 
-#contact-form ul {
-  margin-bottom: 20px;
+#contactMe {
+  text-align: center;
+  font-size: 32px;
 }
 
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
-  background: orange;
-  border: 2px solid;
-  border-color: orange;
-  border-radius: 12px;
+#reallyContactMe {
+  font-size: 24px;
 }
 
 a {
